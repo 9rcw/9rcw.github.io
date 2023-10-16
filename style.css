@@ -1,3 +1,11 @@
+  const resizeOps = () => {
+  document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+  };
+
+  resizeOps();
+  window.addEventListener("resize", resizeOps);
+
+
 html {
   text-align: center;
 }
@@ -10,6 +18,7 @@ body {
     padding-left: 30%;
     padding-top: 5%;
   }
+
   
   .container {
     width: 200px;
