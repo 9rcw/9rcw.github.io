@@ -17,10 +17,8 @@ html {
 
 .p1 {
   font-family: Century Gothic, monospace, sans-serif, sans-serif;
-.center {
   text-align: center;
   border: 3px solid green;
-}
 }
 
 body {
