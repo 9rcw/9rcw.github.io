@@ -17,20 +17,16 @@ html {
 .p1 {
   font-family: Century Gothic, monospace, sans-serif, sans-serif;
   text-align: center;
+  margin: 0 auto;
 }
 
-body {
-    padding-left: 30%;
-    padding-top: 5%;
-  }
-
-  
   .container {
     width: 200px;
     height: 200px;
     position: relative;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
+    margin: 0 auto;
   }
   
   #cube {
